@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".MainActivity">
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/burger_list"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/white"
+        android:src="@drawable/list_icon01"
+        android:clickable="true"
+        app:fabSize="mini"/>
+
+
+    <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+        android:id="@+id/burger_setting_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/white"
+        app:icon="@drawable/ic_settings_24"
+        android:text="Setting"
+        android:clickable="true"
+        android:textAllCaps="false"
+        android:layout_alignBottom="@+id/burger_list"
+        android:layout_marginBottom="-60dp"
+        />
+
+    <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+        android:id="@+id/burger_merge_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/white"
+        app:icon="@drawable/ic_merge_24"
+        android:text="Merge"
+        android:clickable="true"
+        android:textAllCaps="false"
+        android:layout_alignBottom="@+id/burger_setting_btn"
+        android:layout_marginBottom="-60dp"
+        />
+
+    <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+        android:id="@+id/burger_share_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/white"
+        app:icon="@drawable/ic_share_24"
+        android:text="Share"
+        android:clickable="true"
+        android:textAllCaps="false"
+        android:layout_alignBottom="@+id/burger_merge_btn"
+        android:layout_marginBottom="-60dp"
+        />
+
+    <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+        android:id="@+id/burger_salary_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/white"
+        app:icon="@drawable/ic_salary_24"
+        android:text="Salary"
+        android:clickable="true"
+        android:textAllCaps="false"
+        android:layout_alignBottom="@+id/burger_share_btn"
+        android:layout_marginBottom="-60dp"
+        />
+
+    <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+        android:id="@+id/burger_change_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/white"
+        app:icon="@drawable/ic_change_24"
+        android:text="Change"
+        android:clickable="true"
+        android:textAllCaps="false"
+        android:layout_alignBottom="@+id/burger_salary_btn"
+        android:layout_marginBottom="-60dp"
+        />
+
+
+
+    <ImageButton
+        android:id="@+id/addEvent_Btn"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/round"
+        android:backgroundTint="@color/orange"
+        android:src="@drawable/ic_add_24"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="50dp"
+        android:clickable="true"
+        />
+
+</RelativeLayout>
